@@ -80,3 +80,19 @@ img {
     max-width: 300px;
     max-height: 100;
   }
+
+  .aboutButtn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #a19e98; /* Button background color */
+    color: #fff; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    border: 2px solid #4f4f4f; /* Button border */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+
+  .aboutButtn:hover {
+    background-color: #a6a98c; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
