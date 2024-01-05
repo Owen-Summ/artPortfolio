@@ -1,0 +1,82 @@
+p {
+    width: 20%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-style: outset;
+    border-color: rgb(158, 158, 158);
+    margin-top: 4vw;
+    margin: 0 auto;
+    text-align: center;
+}
+h1, h3 {
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h2  {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box
+}
+a {
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 17px;
+    justify-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 700px;
+    max-height: 400px;
+}
+
+.gallery img:hover {
+    animation: play 2s infinite;
+  }
+
+  @keyframes play {
+    to {
+      visibility: visible;
+    }
+}
+
+.separator {
+    max-width: 700px;
+    max-height: 400px; 
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 columns */
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.photo-grid img {
+    width: 150px; /* Set a fixed width for the images */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+.special {
+    text-align: center;
+    margin-top: 2vw;
+    max-width: 300px;
+    max-height: 100;
+  }
